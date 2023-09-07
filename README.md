@@ -13,9 +13,10 @@
 	
 ## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
 
+<a target="_blank" align="center">
+  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+</a>
 
-
-<br>
 
 - A passionate Self-taught Front-end developer
 - Second year BCA student at MAC Ramapuram
@@ -39,6 +40,11 @@
 <br>
 
 ----
+
+<a target="_blank" align="center">
+  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
+</a>
+
 <p><img align="center"
     src="https://github-readme-stats.vercel.app/api/top-langs?username=alwinsibym&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
     alt="alwinsibym" 
