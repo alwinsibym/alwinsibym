@@ -41,9 +41,6 @@
 
 ----
 
-<a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif">
-</a>
 
 <p><img align="center"
     src="https://github-readme-stats.vercel.app/api/top-langs?username=alwinsibym&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
