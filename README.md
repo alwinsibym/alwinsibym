@@ -18,10 +18,10 @@
 </a>
 
 
-- A passionate Self-taught Front-end developer
+- A passionate  Front-end developer
 - Second year BCA student at MAC Ramapuram
 - Currently learning Web Development by Self
-- Personal website [link](https://alwinsibym.github.io/personal_website/)
+- Personal website : https://alwinsibym.github.io/personal_website/
 - I’m currently learning how to improvise my skill set.
 - How to reach me - **alwinsiby123@gmail.com**
 
@@ -39,24 +39,21 @@
 
 <br>
 
-----
+-----
+<h3 align="left">Github Stats:</h3>
 
-
+<p>&nbsp;
+	<img align="center" src="https://github-readme-stats.vercel.app/api?username=alwinsibym&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
+    alt="alwinsibym" />
+	<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=alwinsibym&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" alt="alwinsibym" />
+</p>
+    
+<br>
 <p><img align="center"
     src="https://github-readme-stats.vercel.app/api/top-langs?username=alwinsibym&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
     alt="alwinsibym" 
     bg_color=#808080/></p>
 
-<br>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=alwinsibym&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
-    alt="alwinsibym" /></p>
-
-<br>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=alwinsibym&theme=dark&background=0d1117&date_format=M%20j%5B%2C%20Y%5D" alt="alwinsibym" /></p>
-
------
 <!-- Connect with me -->
 <!--h2 without bottom border-->
 <div id="user-content-toc">
@@ -74,9 +71,11 @@
 <hr>
 
 <h6>@alwinsibym</h6>
-
-
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=alwinsibym&label=Profile%20views" alt="@alwinsiby" />
 </p>
+
+
 
 
 
