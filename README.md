@@ -1,7 +1,7 @@
 <!-- ===================== BANNER ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=260&section=header&text=Alwin%20Siby&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=60&width=1200" />
+  <img src="https://raw.githubusercontent.com/alwinsibym/alwinsibym/main/assets/banner.svg" width="100%" />
 </p>
 <h2 align="center">💻 MCA Student • Software Developer • Builder</h2>
 
