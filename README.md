@@ -1,91 +1,62 @@
-<h1 align="center">Hi 👋, I'm Alwin Siby</h1>
+<h2 align="center">Alwin Siby</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=600&lines=MCA+Student+(2025-27);Aspiring+Software+Developer;Web+Development+Enthusiast;Building+Projects+%F0%9F%9A%80" />
+  <i>Building real-world software • MCA Student • Focused on growth</i>
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+### About
 
-<img align="right" height="220" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+I’m currently pursuing my MCA (2025–2027) at SJCET, Palai.
+I like building practical systems that solve real problems rather than just learning theory.
 
-* 🎓 MCA Student at **SJCET, Palai**
-* 💻 Passionate about **Software Development & Web Technologies**
-* 🚀 Building **real-world projects** to improve practical skills
-* 📈 Currently learning **DSA + Backend Development**
-* 🎯 Goal: Become a **Skilled Software Developer by 2027**
+Right now, I’m focused on:
 
-🔗 **Portfolio:** https://alwinsibym.github.io/personal_website/
-📧 **Email:** [alwinsiby123@gmail.com](mailto:alwinsiby123@gmail.com)
+* Writing cleaner, structured code
+* Strengthening problem-solving (DSA)
+* Building full-stack applications
 
 ---
 
-## 🚀 Featured Projects
+### Selected Work
 
-### 🔹 FoodChain – Food Waste Management System
-
-* Kitchen & food tracking system
-* Helps reduce food waste efficiently
-* ⚙️ Tech: *(Add your stack)*
-* 🔗 [View Project](#)
+**FoodChain — Food Waste Management System**
+A system designed to track and reduce food waste with a focus on kitchen-level operations.
+→ Built with: *(add your stack)*
+→ Covers: tracking, management, and optimization
 
 ---
 
-### 🔹 LMS Web Application
-
-* Multi-role system (Admin, Faculty, Student)
-* Attendance, assignments, quizzes
-* ⚙️ Tech: PHP, MySQL, JS
-* 🔗 [View Project](#)
+**LMS Web Application**
+A role-based academic platform (Admin / Faculty / Student)
+→ Features attendance, assignments, internal marks, and resources
 
 ---
 
-### 🔹 AI Image Classification App
-
-* Real-time classification using webcam
-* Built with Teachable Machine
-* 🔗 [View Project](#)
+**AI Image Classification App**
+Real-time classification using Teachable Machine + JavaScript
+→ Demonstrates practical use of ML in web apps
 
 ---
 
-## 💻 Tech Stack
+### Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,cpp,c,mysql,git,github,vscode&theme=dark" />
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alwinsibym&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alwinsibym&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
+HTML • CSS • JavaScript • C • C++
+MySQL • Git • GitHub • VS Code
 
 ---
 
-## 🤝 Connect With Me
+### Links
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/alwin-siby-8528ba22b/">
-    <img src="https://img.icons8.com/color/48/linkedin.png"/>
-  </a>
-  <a href="https://twitter.com/alwinsiby26">
-    <img src="https://img.icons8.com/color/48/twitter--v1.png"/>
-  </a>
-  <a href="https://www.instagram.com/alwin_siby_/">
-    <img src="https://img.icons8.com/color/48/instagram-new--v1.png"/>
-  </a>
-</p>
+Portfolio:
+https://alwinsibym.github.io/personal_website/
+
+LinkedIn:
+https://www.linkedin.com/in/alwin-siby-8528ba22b/
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=alwinsibym&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alwinsibym&show_icons=true&hide_border=true" height="150"/>
 </p>
-
----
-
-⭐️ *Consistently learning, building, and improving as a developer.*
