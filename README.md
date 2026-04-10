@@ -19,7 +19,7 @@
 
 
 - A passionate  Front-end developer
-- Third year BCA student at MAC Ramapuram
+- First  year MCA student at SJCET,Palai
 - Currently learning Web Development by Self
 - Personal website : https://alwinsibym.github.io/personal_website/
 - I’m currently learning how to improvise my skill set.
