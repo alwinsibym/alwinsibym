@@ -1,7 +1,7 @@
 <!-- ===================== BANNER ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1f6feb,50:3b82f6,75:60a5fa,100:93c5fd&height=280&section=header&text=Alwin%20Siby&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=60&width=100%25" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,20:004e92,40:1f6feb,60:3b82f6,80:60a5fa,100:93c5fd&height=300&section=header&text=Alwin%20Siby&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=62&width=1200" />
 </p>
 
 <h2 align="center">💻 MCA Student • Software Developer • Builder</h2>
@@ -104,5 +104,5 @@
 <!-- ===================== FOOTER ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:93c5fd,25:60a5fa,50:3b82f6,75:1f6feb,100:0d1117&height=140&section=footer&width=100%25"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:93c5fd,20:60a5fa,40:3b82f6,60:1f6feb,80:004e92,100:000428&height=160&section=footer&width=1200"/>
 </p>
