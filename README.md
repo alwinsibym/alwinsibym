@@ -1,15 +1,17 @@
 <!-- ===================== BANNER ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=280&section=header&text=Alwin%20Siby&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=60&width=1200" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,40:2563eb,70:3b82f6,100:93c5fd&height=280&section=header&text=Alwin%20Siby&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=60&width=1200" />
 </p>
+
 <h2 align="center">💻 MCA Student • Software Developer • Builder</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+real-world+applications;Focused+on+clean+code+and+systems;Learning+by+doing+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=2563eb&center=true&vCenter=true&width=900&lines=Building+real-world+applications;Focused+on+clean+code+and+systems;Learning+by+doing+🚀" />
 </p>
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=alwinsibym&label=Profile%20Views&color=1f6feb&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=alwinsibym&label=Profile%20Views&color=2563eb&style=flat" />
 </p>
 
 ---
@@ -30,7 +32,7 @@
 
 * 🔹 FoodChain – Enhancing kitchen management module
 * 🔹 Strengthening **Data Structures & Algorithms**
-* 🔹 Exploring **full-stack development (backend focus)**
+* 🔹 Exploring **Full-Stack Development (Backend Focus)**
 
 ---
 
@@ -38,16 +40,20 @@
 
 <p align="center">
 
-<a href="#">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=FoodChain&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/alwinsibym/ICTAK-RCG-hackathon">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=ICTAK-RCG-hackathon&theme=tokyonight&hide_border=true" />
 </a>
 
-<a href="#">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=LMS-Project&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/alwinsibym/campus-bus-tracker">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=campus-bus-tracker&theme=tokyonight&hide_border=true" />
 </a>
 
-<a href="#">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=AI-Image-Classifier&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/alwinsibym/malayalam-meme-extension">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=malayalam-meme-extension&theme=tokyonight&hide_border=true" />
+</a>
+
+<a href="https://github.com/alwinsibym/minnal_murali">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=minnal_murali&theme=tokyonight&hide_border=true" />
 </a>
 
 </p>
@@ -75,14 +81,6 @@
 
 ---
 
-## 🐍 Contribution Graph
-
-<p align="center">
-  <img src="https://github.com/alwinsibym/alwinsibym/blob/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
 ## 🌐 Connect
 
 <p align="center">
@@ -106,5 +104,5 @@
 <!-- ===================== FOOTER ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:0d1117&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:93c5fd,50:3b82f6,100:1f2937&height=140&section=footer"/>
 </p>
