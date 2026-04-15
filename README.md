@@ -1,17 +1,17 @@
 <!-- ===================== BANNER ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2937,40:2563eb,70:3b82f6,100:93c5fd&height=280&section=header&text=Alwin%20Siby&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=60&width=1200" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1f6feb,50:3b82f6,75:60a5fa,100:93c5fd&height=280&section=header&text=Alwin%20Siby&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=60&width=100%25" />
 </p>
 
 <h2 align="center">💻 MCA Student • Software Developer • Builder</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=2563eb&center=true&vCenter=true&width=900&lines=Building+real-world+applications;Focused+on+clean+code+and+systems;Learning+by+doing+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=1f6feb&center=true&vCenter=true&width=900&lines=Building+real-world+applications;Focused+on+clean+code+and+systems;Learning+by+doing+🚀" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=alwinsibym&label=Profile%20Views&color=2563eb&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=alwinsibym&label=Profile%20Views&color=1f6feb&style=flat" />
 </p>
 
 ---
@@ -104,5 +104,5 @@
 <!-- ===================== FOOTER ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:93c5fd,50:3b82f6,100:1f2937&height=140&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:93c5fd,25:60a5fa,50:3b82f6,75:1f6feb,100:0d1117&height=140&section=footer&width=100%25"/>
 </p>
