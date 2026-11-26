@@ -1,108 +1,60 @@
-<!-- ===================== BANNER ===================== -->
+<div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,20:004e92,40:1f6feb,60:3b82f6,80:60a5fa,100:93c5fd&height=300&section=header&text=Alwin%20Siby&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20MCA%20Student&descAlignY=62&width=1200" />
-</p>
+<img src="assets/scene.svg" alt="Pixel study: the window shows the weather in Kottayam, the clock shows local time, the monitor shows my latest commits, and each book on the shelf is a language I write" width="100%"/>
 
-<h2 align="center">💻 MCA Student • Software Developer • Builder</h2>
+<sub>The window shows the weather in Kottayam, the clock shows local time, the monitor scrolls my latest commits and each book on the shelf is a language I write. The lamp comes on from dusk until dawn. Refreshed every 15 minutes.</sub>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=1f6feb&center=true&vCenter=true&width=900&lines=Building+real-world+applications;Focused+on+clean+code+and+systems;Learning+by+doing+🚀" />
-</p>
+<br/><br/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=alwinsibym&label=Profile%20Views&color=1f6feb&style=flat" />
-</p>
+<a href="https://www.linkedin.com/in/alwin-siby/"><img src="https://img.shields.io/badge/LinkedIn-alwin--siby-0b3d2b?style=for-the-badge&logo=linkedin&logoColor=d4a843&labelColor=07130e"/></a>
+<a href="https://www.instagram.com/alwin_siby_/"><img src="https://img.shields.io/badge/Instagram-alwin__siby__-0b3d2b?style=for-the-badge&logo=instagram&logoColor=d4a843&labelColor=07130e"/></a>
+<a href="mailto:alwinsiby123@gmail.com"><img src="https://img.shields.io/badge/Email-alwinsiby123@gmail.com-0b3d2b?style=for-the-badge&logo=gmail&logoColor=d4a843&labelColor=07130e"/></a>
+<a href="https://alwinsibym.github.io/personal_website/"><img src="https://img.shields.io/badge/Portfolio-alwinsibym.github.io-0b3d2b?style=for-the-badge&logo=googlechrome&logoColor=d4a843&labelColor=07130e"/></a>
 
----
-
-## 🧑‍💻 About Me
-
-<img align="right" height="220" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
-
-* 🎓 MCA Student (2025–2027) at **SJCET, Palai**
-* 💡 I focus on **building real systems**, not just learning theory
-* ⚙️ Interested in **Web Development & Software Engineering**
-* 📈 Currently improving **DSA + Backend Development**
-* 🎯 Goal: Become a **high-level software developer**
+</div>
 
 ---
 
-## 🚀 Currently Working On
+## About
 
-* 🔹 FoodChain – Enhancing kitchen management module
-* 🔹 Strengthening **Data Structures & Algorithms**
-* 🔹 Exploring **Full-Stack Development (Backend Focus)**
+MCA student (2025–2027) at SJCET, Palai, based in Kottayam, Kerala. I build full-stack web applications and AI-assisted tools, and I'm aiming for an entry-level software developer role in full-stack or AI engineering.
 
----
-
-## 🧠 Selected Projects
-
-<p align="center">
-
-<a href="https://github.com/alwinsibym/ICTAK-RCG-hackathon">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=ICTAK-RCG-hackathon&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/alwinsibym/campus-bus-tracker">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=campus-bus-tracker&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/alwinsibym/malayalam-meme-extension">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=malayalam-meme-extension&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/alwinsibym/minnal_murali">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=alwinsibym&repo=minnal_murali&theme=tokyonight&hide_border=true" />
-</a>
-
-</p>
+- Working on **BluePrint**, a planning platform that uses local multi-agent LLMs to turn a software idea into requirements, architecture and a project scaffold.
+- Shipped **MediaForge**, a self-hosted media converter built with FastAPI, yt-dlp and FFmpeg, with tests, CI and Docker.
+- Improving data structures and algorithms alongside backend development.
 
 ---
 
-## 💻 Tech Stack
+## Projects
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,cpp,c,mysql,git,github,vscode&theme=dark" />
-</p>
-
----
-
-## 📊 GitHub Insights
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alwinsibym&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alwinsibym&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=alwinsibym&theme=tokyonight&hide_border=true" height="160"/>
-</p>
+<!--CARDS:START-->
+<div align="center"><table><tr><td><a href="https://github.com/alwinsibym/BluePrint"><img src="assets/card-1.svg" width="410" alt="BluePrint"/></a></td><td><a href="https://github.com/alwinsibym/mediaforge"><img src="assets/card-2.svg" width="410" alt="mediaforge"/></a></td></tr><tr><td><a href="https://github.com/alwinsibym/malayalam-meme-extension"><img src="assets/card-3.svg" width="410" alt="malayalam-meme-extension"/></a></td><td><a href="https://github.com/alwinsibym/personal_website"><img src="assets/card-4.svg" width="410" alt="personal_website"/></a></td></tr></table></div>
+<!--CARDS:END-->
 
 ---
 
-## 🌐 Connect
+## Activity
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/alwin-siby-8528ba22b/">
-    <img src="https://img.icons8.com/color/48/linkedin.png"/>
-  </a>
-  <a href="https://twitter.com/alwinsiby26">
-    <img src="https://img.icons8.com/color/48/twitter--v1.png"/>
-  </a>
-  <a href="https://www.instagram.com/alwin_siby_/">
-    <img src="https://img.icons8.com/color/48/instagram-new--v1.png"/>
-  </a>
-</p>
+<div align="center">
+<img src="assets/activity.svg" alt="Rotating tesseract, current and best streak, commits this year and all-time, heatmap, and the repo I'm working on" width="100%"/>
+
+<!--LATEST:START-->
+<p align="center"><sub>Latest push: <a href="https://github.com/alwinsibym/mediaforge"><b>mediaforge</b></a> · release: 1.5.0 · 2h ago</sub></p>
+<!--LATEST:END-->
+</div>
 
 ---
 
-<p align="center">
-  <i>“I focus on building systems, not just completing tutorials.”</i>
-</p>
+## Stack
 
-<!-- ===================== FOOTER ===================== -->
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,fastapi,ts,js,react,html,css,docker,git,github,vscode&theme=dark" alt="Python, FastAPI, TypeScript, JavaScript, React, HTML, CSS, Docker, Git, GitHub, VS Code"/>
+</div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:93c5fd,20:60a5fa,40:3b82f6,60:1f6feb,80:004e92,100:000428&height=160&section=footer&width=1200"/>
-</p>
+---
+
+<div align="center">
+<i>“I focus on building systems, not just completing tutorials.”</i>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07130e,50:1f8a5b,100:d4a843&height=90&section=footer&width=1200" width="100%" alt=""/>
