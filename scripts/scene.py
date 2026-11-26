@@ -111,8 +111,9 @@ def monitor(commits, ph):
             rows.append(f'<text x="111" y="{yy:.1f}" font-family="monospace" font-size="3" fill="#4be3a0">'
                         f'{escape(t)}</text>')
     dist = len(lines) * lh
-    o.append('<g clip-path="url(#scr)"><g class="sc" style="--d:%.1fpx;animation-duration:%ds">%s</g></g>'
+    o.append('<g class="cm"><g clip-path="url(#scr)"><g class="sc" style="--d:%.1fpx;animation-duration:%ds">%s</g></g></g>'
              % (dist, max(8, len(lines) * 3), "".join(rows)))
+    o.append(monitor_rain())
     o.append(R(x + w // 2 - 4, y + h + 2, 8, 6, "#10151a") + R(x + w // 2 - 10, y + h + 7, 20, 2, "#10151a"))
     return "".join(o)
 
@@ -261,6 +262,59 @@ def overlay(ph):
             + R(0, 0, W, H, "url(#dim)"))
 
 
+
+import random as _random
+
+SCREEN = (108, 38, 62, 38)  # x, y, w, h of the monitor screen
+
+
+def load_mask():
+    path = os.path.join(os.path.dirname(__file__), "mask.txt")
+    try:
+        return [ln.rstrip("\n") for ln in open(path) if ln.strip()]
+    except OSError:
+        return []
+
+
+def monitor_rain():
+    """Letters rain down the monitor screen for ~6s every 36s; silhouette cells light up in gold."""
+    x0, y0, w, h = SCREEN
+    colw, rowh = 1.5, 2.2
+    ncols, nrows = int(w / colw), int(h / rowh)
+    rnd = _random.Random(5)
+    abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    cols = []
+    for c in range(ncols):
+        x = x0 + 0.6 + c * colw
+        dur = rnd.uniform(1.6, 3.0)
+        delay = -rnd.uniform(0, dur)
+        n = rnd.randint(6, 9)
+        gl = []
+        for k in range(n):
+            last = k == n - 1
+            gl.append(f'<text x="{x:.1f}" y="{y0 + 1.9 + k * rowh:.1f}" fill="{"#d8ffe9" if last else "#2fd490"}" '
+                      f'opacity="{1 if last else .2 + .7 * k / n:.2f}">{rnd.choice(abc)}</text>')
+        cols.append(f'<g class="mfall" style="animation-duration:{dur:.2f}s;animation-delay:{delay:.2f}s">{"".join(gl)}</g>')
+    mask = load_mask()
+    lit = []
+    if mask:
+        mw = max(len(r) for r in mask)
+        ox, oy = (ncols - mw) // 2, (nrows - len(mask)) // 2
+        for j, row in enumerate(mask):
+            for i, ch in enumerate(row):
+                if ch == "#":
+                    cx, cy = ox + i, oy + j
+                    if 0 <= cx < ncols and 0 <= cy < nrows:
+                        lx, ly = x0 + 0.6 + cx * colw, y0 + 1.9 + cy * rowh
+                        lit.append(f'<rect x="{lx - .1:.1f}" y="{ly - 1.8:.1f}" width="{colw:.1f}" height="{rowh:.1f}" fill="#031009" stroke="none"/>'
+                                   f'<text x="{lx:.1f}" y="{ly:.1f}">{rnd.choice(abc)}</text>')
+    return ('<clipPath id="scr2"><rect x="%d" y="%d" width="%d" height="%d"/></clipPath>' % SCREEN
+            + '<g clip-path="url(#scr2)"><g class="mr">'
+            + R(x0, y0, w, h, "#031009")
+            + '<g font-family="monospace" font-size="2.1" font-weight="bold">' + "".join(cols)
+            + '<g class="mk" fill="#ffe08a" font-size="2.2">' + "".join(lit) + '</g></g></g></g>')
+
+
 def css(dist, nlines):
     return f"""
 .tw{{animation:tw 2.4s ease-in-out infinite}}@keyframes tw{{0%,100%{{opacity:.2}}50%{{opacity:1}}}}
@@ -271,6 +325,10 @@ def css(dist, nlines):
 .sp12{{animation:sp 43200s linear infinite}}.sp1{{animation:sp 3600s linear infinite}}.sp60{{animation:sp 60s steps(60) infinite}}
 @keyframes sp{{to{{transform:rotate(360deg)}}}}
 .gl{{animation:gl 3s ease-in-out infinite alternate}}@keyframes gl{{from{{opacity:.7}}to{{opacity:1}}}}
+.mr{{opacity:0;animation:mv 36s ease-in-out infinite}}@keyframes mv{{0%,76%{{opacity:0}}80%,92%{{opacity:1}}96%,100%{{opacity:0}}}}
+.cm{{animation:cm 36s ease-in-out infinite}}@keyframes cm{{0%,76%{{opacity:1}}80%,92%{{opacity:0}}96%,100%{{opacity:1}}}}
+.mk{{opacity:0;animation:mk 36s ease-in-out infinite}}@keyframes mk{{0%,81%{{opacity:0}}86%,92%{{opacity:1}}95%,100%{{opacity:0}}}}
+.mfall{{animation:mfall linear infinite}}@keyframes mfall{{from{{transform:translateY(-22px)}}to{{transform:translateY(40px)}}}}
 .zz{{animation:zz 3.4s ease-in-out infinite;opacity:0}}@keyframes zz{{0%{{opacity:0;transform:translateY(2px)}}50%{{opacity:1}}100%{{opacity:0;transform:translateY(-4px)}}}}
 """
 
@@ -286,4 +344,5 @@ def build(now, w, ph, commits, langs):
             lamp(on), overlay(ph), window(ph, w["code"], w["temp"]), monitor(commits, ph), clock(now)]
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="960" height="540" '
             f'shape-rendering="crispEdges" role="img" aria-label="Pixel study in {CITY}: {ph}, {w["temp"]:.0f}°C">'
-            f'<style>{css(dist, nl)}</style><defs>{defs}</defs>' + "".join(body) + "</svg>")
+            f'<style>{css(dist, nl)}</style><defs>{defs}<clipPath id="round"><rect width="240" height="135" rx="7"/></clipPath></defs>'
+            '<g clip-path="url(#round)">' + "".join(body) + "</g></svg>")
